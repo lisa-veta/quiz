@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+body {
+
+    background-image:
+            linear-gradient(
+                    to right,
+                    #779ED9 5px,
+                    transparent 1px
+            ),
+            linear-gradient(
+                    to bottom,
+                    #779ED9 5px,
+                    transparent 1px
+            );
+    background-size: 60px 60px; /* Размер клетки */
+    background-color: #8fb6f1; /* Цвет фона */
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.center {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input {
+    height: 403px;
+    width: 800px;
+    background-color: #F9F4EE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+}
+
+.create_victory {
+    font-size: 25px;
+    font-weight: bold;
+    height: 60px;
+    width: 500px;
+    position: absolute;
+    border: 2px solid black;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: white;
+}
+.under_button {
+    height: 60px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-49%, -39%);
+    border-radius: 15px;
+    background-color: black;
+}
+
+.v1 {
+    top: 30%
+}
+
+.v2 {
+    top: 70%;
+}
+
+form {
+    height: 60px;
+    width: 500px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.d1 input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: white;
+    outline: none;
+}
+.d1 button {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    background: #C8BEFA;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+
+form button img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px; /*  Регулируйте размер по необходимости  */
+    height: 20px;
+    margin-right: 5px; /*  Добавьте отступ справа, если нужно  */
+}

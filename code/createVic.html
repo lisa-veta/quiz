@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/styles/createV.css">
+    <title>Create victorina</title>
+    <script>
+        function goToIndex() {
+            window.location.href = "index.html";
+        }
+    </script>
+    <style>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="input">
+
+    <button class="main butt text" onclick="goToIndex()"><- назад</button>
+    <form class="main">
+        <div class = "text general">Название викторины*</div>
+        <label>
+            <input class="nameV" placeholder="Введите название">
+        </label>
+        <p>
+            <input type="checkbox" class="custom-checkbox general" id="mix-questions" name="mix-questions" value="yes">
+            <label class = "text general" for="mix-questions">Перемешать вопросы</label>
+            <span style="margin-right: 30px;"></span>
+            <input type="checkbox" class="custom-checkbox general" id="mix-answers" name="mix-answers" value="yes">
+            <label class = "text general" for="mix-answers">Перемешать ответы</label>
+        </p>
+        <p class = "text general" style="float: left;">Вопрос*</p>
+        <p class = "text general" style="float: right;">Балл*</p>
+        <label>
+            <input class="nameQ general" placeholder="Введите текст вопроса">
+        </label>
+        <label>
+            <input class="mark general" type="number" min="0" max="10">
+        </label>
+        <p class="input-container general">
+            <label class="color red">A</label>
+            <input class="nameA" placeholder="Введите текст ответа">
+        </p>
+        <p class="input-container general">
+            <label class="color red">B</label>
+            <input class="nameA" placeholder="...">
+        </p>
+        <p class="input-container general">
+            <label class="color red">C</label>
+            <input class="nameA" placeholder="...">
+        </p>
+
+    </form>
+</div>
+</body>
+</html>
